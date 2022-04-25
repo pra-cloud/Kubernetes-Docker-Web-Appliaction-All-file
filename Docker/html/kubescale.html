@@ -137,7 +137,7 @@ var dname = document.getElementById("dname").value;
 var scale = document.getElementById("scale").value;
 
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "http://34.224.40.233/cgi-bin/kubeScaledeployment.py?"+"dname="+dname+"&scale="+scale, true);
+xhr.open("GET", "http://PublicIp/cgi-bin/kubeScaledeployment.py?"+"dname="+dname+"&scale="+scale, true);
 xhr.send();
 
         xhr.onload = function out(){
@@ -151,7 +151,7 @@ function Deployment(){
 //var vol = document.getElementById("vol").value;
 
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "http://34.224.40.233/cgi-bin/kubedeployment.py", true);
+xhr.open("GET", "http://PublicIp/cgi-bin/kubedeployment.py", true);
 
 xhr.send();
 
