@@ -122,7 +122,7 @@ var name = document.getElementById("name").value;
 var image = document.getElementById("image").value;
 
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "http://34.224.40.233/cgi-bin/kubecontainer.py?"+"name="+name+"&image="+image, true);
+xhr.open("GET", "http://PublicIp/cgi-bin/kubecontainer.py?"+"name="+name+"&image="+image, true);
 xhr.send();
 
         xhr.onload = function out(){
