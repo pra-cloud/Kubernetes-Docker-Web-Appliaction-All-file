@@ -106,7 +106,7 @@ EOF
 
 mkdir /root/repo
 
-git -C /root/repo clone https://github.com/pra-cloud/Docker-Web-Appliaction-All-file.git
+git -C /root/repo clone https://github.com/pra-cloud/Kubernetes-Docker-Web-Appliaction-All-file.git
 
 mv /root/repo/Kubernetes-Docker-Web-Appliaction-All-file/Docker/html/* /var/www/html
 
