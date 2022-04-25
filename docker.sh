@@ -110,7 +110,7 @@ git -C /root/repo clone https://github.com/pra-cloud/Kubernetes-Docker-Web-Appli
 
 mv /root/repo/Kubernetes-Docker-Web-Appliaction-All-file/Docker/html/* /var/www/html
 
-mv /root/repo/Kubernetes-Docker-Web-Appliaction-All-file/Docker/cgi/* /var/www/cgi-bin
+mv /root/repo/Kubernetes-Docker-Web-Appliaction-All-file/Docker/cgi-bin/* /var/www/cgi-bin
 
 #give permission to all file
 
